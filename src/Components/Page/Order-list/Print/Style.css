@@ -1,0 +1,40 @@
+@media print {
+
+    .page-header, .page-header-space {
+        width: 400px;
+        height: auto;
+        background-color: #ffffff;
+        text-align: center;
+        border: none;
+    }
+
+    .page-header {
+        position: fixed;
+        top: 0mm;
+        width: 100%;
+       background-color: #ffffff;
+    }
+
+    .page {
+        page-break-after: always;
+    }
+
+    .page table{
+        width: 400px;
+    }
+  
+    .page-footer, .page-footer-space {
+        width: 400px;
+        background-color: #ffffff;
+        border: none;
+    }
+    
+  
+    .page-footer {
+      /* position: fixed; */
+      bottom: 0;
+      width: 100%;
+    
+    }
+    
+}

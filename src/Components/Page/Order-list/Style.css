@@ -1,0 +1,256 @@
+.Show-title-and-qty-call {
+  width: 100%;
+  height: 20vh;
+  background: #fbeeec 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #e5e5e5;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.Show-title-and-qty-process {
+  width: 100%;
+  height: 20vh;
+  background: #fdffe7 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #e5e5e5;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.Show-title-and-qty-completed {
+  width: 100%;
+  height: 20vh;
+  background: #ebfaea 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #e5e5e5;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.Show-title-and-qty-delivery {
+  width: 100%;
+  height: 20vh;
+  background: #fef7ea 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #e5e5e5;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.Icon-menu-call {
+  width: 23%;
+}
+
+.Text-title-call {
+  font-size: 40px;
+  color: #a9360f;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  margin-top: 50px;
+}
+
+.Text-title-process {
+  font-size: 40px;
+  color: #a99a0f;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  margin-top: 50px;
+}
+
+.Text-title-completed {
+  font-size: 40px;
+  color: #54a90f;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  margin-top: 50px;
+}
+
+.Text-title-delivery {
+  font-size: 40px;
+  color: #a94a0f;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  margin-top: 50px;
+}
+
+.Box-icon-call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  /* background-color: rebeccapurple; */
+}
+
+.Icon-menu-call {
+  width: 110px;
+}
+
+.Ram-box-text-title-call {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-weight: bold;
+  /* text-align: left; */
+}
+
+.Box-title-call-QTY {
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.Text-title-call-QTY {
+  font-weight: bold;
+  color: #23a90f;
+  font-size: 120px;
+  letter-spacing: 22.7px;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+td {
+  border-bottom: rgb(184, 184, 184) solid 1px;
+}
+
+thead {
+  border-bottom: solid rgb(211, 211, 211) 3px;
+}
+
+.Box-text {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; */
+}
+
+.Box-text .tooltiptext {
+  visibility: hidden;
+  width: 450px;
+  background-color: rgb(68, 68, 68);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.Box-text .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 5%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.Box-text:hover .tooltiptext {
+  visibility: visible;
+}
+
+.text-name-detail{
+  width: 200px; 
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #ffffff;
+}
+
+.Box-text .tooltiptext-com {
+  visibility: hidden;
+  width: 350px;
+  background-color: rgb(68, 68, 68);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  right: 5%;
+  margin-left: 10px;
+}
+
+.text-com-detail{
+  width: 100px; 
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #ffffff;
+}
+
+.Box-text .tooltiptext-com::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  right: 20%;
+  margin-right: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.Box-text:hover .tooltiptext-com {
+  visibility: visible;
+}
+
+
+.Box-text .tooltiptext-qty {
+  visibility: hidden;
+  width: 100px;
+  background-color: rgb(68, 68, 68);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  right: 5%;
+  margin-left: 10px;
+}
+
+.text-qty-detail{
+  width: 40px; 
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #ffffff;
+}
+/* 
+.Box-text .tooltiptext-com::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  right: 20%;
+  margin-right: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.Box-text:hover .tooltiptext-com {
+  visibility: visible;
+} */
+
+
+
+.text-cmt-detail{
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
