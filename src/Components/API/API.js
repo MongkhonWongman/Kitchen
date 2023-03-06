@@ -28,3 +28,8 @@ export let REPORT = {
     BILL_LIST : `${GET_DATA_PATH}/Report/Bill-id.php`,
     BILL_DETAIL : `${GET_DATA_PATH}/Report/Bill-detail.php`,
 }
+
+export let SCAN = {
+    UPDATE_ORDER_SCAN : `${GET_DATA_PATH}/Report/Bill-id.php`,
+    ORDER_DETAIL : `${GET_DATA_PATH}/Report/Bill-detail.php`,
+}

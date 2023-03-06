@@ -1,0 +1,77 @@
+.Scan-body{
+/* border: blue solid 20px; */
+background-color: rgb(255, 255, 255);
+display: flex;
+flex-direction:row;
+}
+
+.Box-scan{
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    /* background-color: blue; */
+}
+
+.qr-image-wrapper section{ 
+    width: 43vw;
+    height: 92vh;
+    border: none;
+    background-color: none;
+
+}
+
+.modal-root {
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  .modal-root {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-size: 50%;
+    background-repeat: no-repeat, repeat;
+    border-left: 57px solid rgba(0, 0, 0, 0.131);
+    border-right: 57px solid rgba(0, 0, 0, 0.131);
+    border-bottom: 207px solid rgba(0, 0, 0, 0.131);
+    border-top: 207px solid rgba(0, 0, 0, 0.131);
+    position: fixed;
+    height: 92vh;
+    width: 43vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    z-index: 30;
+  }
+
+  @keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.box {
+    animation: blink 0.5s;
+    animation-iteration-count: infinite;
+}
+
+
+.Text-not-scan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: aqua; */
+    width: 100%;
+    font-size: 25px;
+}
